@@ -1,5 +1,4 @@
 // count up to number
-// *-found on stack overflow-*
 function animateValue(id, start, end, duration) {
     var range = end - start;
     var current = start;

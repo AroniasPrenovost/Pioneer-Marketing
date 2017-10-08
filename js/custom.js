@@ -1,9 +1,3 @@
-
-// NIVO LIGHTBOX
-$('.iso-box-section a').nivoLightbox({
-        effect: 'fadeScale',
-    });
-
 // ISOTOPE FILTER
 jQuery(document).ready(function($){
 
@@ -11,21 +5,6 @@ jQuery(document).ready(function($){
 
 	    var $container 	= $('.iso-box-wrapper'), 
 	    	$imgs 		= $('.iso-box img');
-
-
-
-	    $container.imagesLoaded(function () {
-
-	    	$container.isotope({
-				layoutMode: 'fitRows',
-				itemSelector: '.iso-box'
-	    	});
-
-	    	$imgs.load(function(){
-	    		$container.isotope('reLayout');
-	    	})
-
-	    });
 
 	    //filter items on button click
 
