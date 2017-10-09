@@ -420,7 +420,7 @@ a:hover {
 .quotebar {
   width: 100%;
   height: 450px;
-  background: url('../images/quote-background-gr1.gif')no-repeat center center;  
+  background: url('../images/blue-quote-4.jpg')no-repeat center center;  /*quote-background-gr1.gif*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -599,7 +599,7 @@ background-color:#97b1a6;
   align-content: right;
 }
 #contact input[type="submit"] {
-  background: #698996; 
+  background: #407595; 
   border-color: transparent;
   color: #ffffff;
   transition: all 0.4s ease-in-out;
@@ -696,7 +696,7 @@ footer span {
   margin-left: -5%;
   text-align: center;
   color: /* rgb(64, 117, 149); */rgb(242, 243, 247);
-  background-color: #698996;
+  background-color: #407595;
   width:110%;
 }
 /* scrolltop section */
