@@ -44,13 +44,13 @@ img:hover {
   opacity: 0.5;
 }
 
-/* navigation */
 .navbar-default {
   height: 100px;
   border: none;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
   margin: 0 !important;
 }
+
 .navbar-default .navbar-brand {
   background: /*#F1AB86;*/  #407595; 
   color: #97b1a6; 
@@ -66,14 +66,12 @@ img:hover {
   -ms-transition: all 0.4s ease-in-out;
 }
 .navbar-brand:hover, .navbar-brand:clicked {
-
   height: 100px;
 }
 .navbar-brand:hover {
   background-color:#698996 !important;
   color:#f1ab86 /* #97b1a6 */ !important;
 }
-
 
 /*   rgb(0, 122, 68);   */
 .navbar-default .navbar-nav li a {
@@ -89,25 +87,30 @@ img:hover {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
 }
+
 .navbar-default .navbar-nav > li > a:clicked,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #f1ab86;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #f1ab86;
   background-color: transparent;
 }
+
 .navbar-default .navbar-toggle {
   border: none;
   padding-top: 30px;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
   background: #dc5034;
   border-color: transparent;
 }
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { 
   background-color: transparent 
@@ -125,10 +128,14 @@ img:hover {
   min-height: 800px;
   padding-top: 220px;
   padding-bottom: 100px;
-  background-attachment: fixed;
+  /*  background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.space {
+  padding-top:5vh;
+  background-color:#f2f3f7;
 }
 
 #parallax2  {
@@ -290,6 +297,11 @@ a:hover {
   margin-bottom: 15px;
   padding: 40px;
 }
+
+#service-layout {
+  background-color:#f2f3f7;
+}
+
 .blogBlurb {
   text-indent: 5px;
   padding-top: 14px;
@@ -326,10 +338,17 @@ a:hover {
 #team {
   padding-top: 60px;
   padding-bottom: 100px;
+  text-align: center;
 }
 #team h2 {
   display: inline-block;
-  padding: 5px 10px 10px 20px;
+  padding: 5px 5px 5px 5px;
+  font-size: 22px;
+  color: #F1AB86;
+  font-weight:900;
+}
+#team h3 {
+  font-size:2em;
 }
 #team h4 {
   padding-bottom: 40px;
@@ -348,65 +367,67 @@ a:hover {
   font-weight: 800;
 }
 
-/* news section */
-#news {
+/* services section */
+#services {
   text-align: center;
   padding-top: 75px; /* used to be 80px */
   padding-bottom: 60px;
   background-color: rgb(242, 243, 247);
 }
-#news2 {
-  text-align: center;
-  padding-top: 80px; 
-  background-color: white;
-}
 
-#news2:nth-child(1) {
-  padding-top: 0px;
-  background-color: rgb(242, 243, 247); 
-
-}
-
-#news2 {
-  background-color:white;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#news2 h1 {
-  font-size: 30px;
-  margin-top: -6px;
-  margin-bottom: 1pc;
+#services p {
   color: #407595;
+  font-size:1.2em;
 }
-
-#news h2 {
+#services h2 {
   display: inline-block;
   padding: 5px 5px 5px 5px;
   font-size: 22px;
   color: #F1AB86;
 }
 
-
-#news2 h4 {
-  color: #407595;
+/*
+#news2 {
+text-align: center;
+padding-top: 80px; 
+background-color: white;
 }
 
-#news p {
-  color: #407595;
-  font-size:1.2em;
+#news2:nth-child(1) {
+padding-top: 0px;
+background-color: rgb(242, 243, 247); 
+
+}
+
+#news2 {
+background-color:white;
+position: relative;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#news2 h1 {
+font-size: 30px;
+margin-top: -6px;
+margin-bottom: 1pc;
+color: #407595;
+}
+
+
+
+#news2 h4 {
+color: #407595;
 }
 
 #news2 h2 {
-  display: inline-block;
-  padding: 5px 5px 5px 5px;
-  font-size: 2em;
-  color: #f1ab86;
+display: inline-block;
+padding: 5px 5px 5px 5px;
+font-size: 2em;
+color: #f1ab86;
 }
 
-
+*/
 
 .bar {
   width: 100%;
@@ -416,7 +437,6 @@ a:hover {
   margin-bottom: 0px;
 }
 
-/* ---------- Quote Section ---------- */
 .quotebar {
   width: 100%;
   height: 450px;
@@ -432,7 +452,6 @@ a:hover {
   height:10%;
   margin-left: 45%;
   margin-top: 6%;
-
 }
 
 #quote {
@@ -446,8 +465,8 @@ a:hover {
   font-size: 1.2em;  
   font-weight: 400; 
   padding-bottom: 14%;
-
 }
+
 .togglButtons {
   position: relative;
   width: 100%;
@@ -455,7 +474,6 @@ a:hover {
   border: none;
   padding-bottom:5%;
 }
-
 
 div button {
   border:none;
@@ -551,8 +569,6 @@ other elements such as DIV's used as modals */
   display: block;
 }
 
-
-/* contact section */
 #contact {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -763,9 +779,9 @@ footer span {
   }
 
   .layer {
-    width:70vw;
-    height:90vw;
-    margin-top:0px;
+    width: 92.5vw;
+    height:100%;
+
   }
 
   .layer h4 {
@@ -777,7 +793,7 @@ footer span {
     margin-right:20px;
   }
 
-  #news h1 {
+  #services h1 {
     font-size:1.5em;
   }
 
@@ -793,11 +809,5 @@ footer span {
   form {
     margin-top:40px;
   }
-
-}
-
-/* media 360 */
-@media only screen and ( max-width: 360px ) {
-
 
 }
