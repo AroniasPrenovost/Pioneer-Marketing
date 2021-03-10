@@ -126,9 +126,9 @@ img:hover {
 #parallax {
   background: url('../images/seattle_bus2.jpg')no-repeat;
   position: relative;
-  min-height: 800px;
+  min-height: 700px;
   padding-top: 220px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   /*  background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@ img:hover {
   float:right;
   opacity: .95;
   width: 505px;
-  height: 240px; 
+  height: 265px; 
 }
 
 .layer a:hover {
@@ -229,7 +229,7 @@ img:hover {
 #home p {
   padding-left: 9%;
   font-size: 1.2em;
-  padding-top:30px;
+  padding-top:20px;
   font-weight: 800;
 
 }
@@ -304,10 +304,10 @@ a:hover {
 }
 
 .blogBlurb {
-  text-indent: 5px;
+  /* text-indent: 5px; */
   padding-top: 14px;
   padding-bottom: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 #about h2 {
@@ -337,7 +337,7 @@ a:hover {
 
 /* team section */
 #team {
-  padding-top: 60px;
+  padding-top: 55px;
   padding-bottom: 100px;
   text-align: center;
 }
@@ -371,7 +371,7 @@ a:hover {
 /* services section */
 #services {
   text-align: center;
-  padding-top: 75px; /* used to be 80px */
+  padding-top: 55px; /* used to be 80px */
   padding-bottom: 60px;
   background-color: rgb(242, 243, 247);
 }
@@ -571,8 +571,7 @@ other elements such as DIV's used as modals */
 }
 
 #contact {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 10px 0 10px 0;
   text-align: center;
   background-size: contain;
 /*
@@ -592,8 +591,8 @@ background-color:#97b1a6;
 #contact h4 {
   font-size:1.5em;
   font-weight:900;
-  margin-bottom: 2.5% !important;
-  margin-top: 1% !important;
+  margin-bottom: 1.5% !important;
+  margin-top: .5% !important;
   color:white;
   width:50%;
   line-height:1.5;
@@ -653,7 +652,7 @@ background-color:#97b1a6;
   vertical-align: center;
 }
 footer {
-  padding-top: 60px;
+  padding-top: 55px;
   padding-bottom: 60px;
   text-align: left;
 }
