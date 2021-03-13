@@ -321,7 +321,7 @@ a:hover {
 }
 #about img {
   border: 1px solid #666;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;   */
 }
 #about h4 {
   padding-bottom: 10px;
@@ -338,7 +338,7 @@ a:hover {
 /* team section */
 #team {
   padding-top: 55px;
-  padding-bottom: 100px;
+  padding-bottom: 55px; /* 100px */ 
   text-align: center;
 }
 #team h2 {
@@ -358,10 +358,10 @@ a:hover {
   text-align: center;
   padding-bottom: 60px;
 }
-#team img {
+/* #team img {
   border: 1px solid #666;
   padding: 15px;
-}
+} */
 
 .blogClick {
   color: #1abc9c;
@@ -571,7 +571,7 @@ other elements such as DIV's used as modals */
 }
 
 #contact {
-  padding: 10px 0 10px 0;
+  padding: 55px 0 55px 0;
   text-align: center;
   background-size: contain;
 /*
